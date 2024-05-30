@@ -38,3 +38,4 @@ def main():
     v=input('Enter any key: ')
     new_password = generate_password(8,1,1,1,1)
     print('Generated password: ', new_password)
+main()
