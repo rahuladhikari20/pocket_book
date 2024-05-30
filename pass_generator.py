@@ -36,7 +36,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
     return password
 def main():    
     input('Enter any key:')
-    new_password = generate_password()
+    new_password = generate_password(8,1,1,1,1)
     print('Generated password:', new_password)
 if __name__=='__main__':
     main()
